@@ -22,6 +22,7 @@
 	<modules>
 		<module>AdminMicroService</module>
 		<module>EmployeeMicroService</module>
+
 		<module>LoginMicroService</module>
 		<module>EurekaMicroService</module>
 	</modules>
@@ -48,7 +49,8 @@
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
-			</dependency>
+			 <version>2.2.11</version>
+		</dependency>
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-core</artifactId>
