@@ -58,7 +58,7 @@ public class LoginController {
 
 	    //TODO: Wrap this with Hystrix
 	    //=====================================
-	    final String greeting = this.restTemplate.getForObject("http://admin/greeting", String.class);
+	    final String greeting = this.restTemplate.getForObject("http://admin/admin/greeting", String.class);
 	    //=====================================
 
 
